@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Sexto ejercicio</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="texto">
+            <p id="texto">
+                Tus comentarios...
+            </p>
+        </div>
+        <div class="formulario">
+            <h1 id="tituloFormulario">Contáctanos</h1>
+            <form action="">
+            <div>
+                <div class="inputs">
+                    <input id="nombre" type="text" placeholder="Nombre" required>
+                    <input id="segundoNombre" type="text" placeholder="Segundo nombre" required>
+                    <input id="empresa" type="text" placeholder="Empresa" required>
+                    <input id="puesto" type="text" placeholder="Puesto de trabajo" required>
+                    <input id="correo" type="email" placeholder="Correo corporativo" required>
+                    <input id="telefono" type="tel" placeholder="Teléfono" required>
+                </div>
+                <textarea name="" id="comentarios" cols="30" rows="10" maxlength="200" placeholder="Comentarios" required></textarea>
+                <input id="enviar" class="enviar" type="submit" value="Enviar">
+                
+            </div>
+            </form>
+            <a id="español" href="">Español</a>
+            <a id="ingles" href="">Inglés</a>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
